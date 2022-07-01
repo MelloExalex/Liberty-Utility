@@ -1,7 +1,6 @@
 const Discord = require("discord.js");
 const { Client, Intents } = require('discord.js');
 const bot = new Discord.Client({ intents: ["GUILDS", "GUILD_MESSAGES", "DIRECT_MESSAGE_TYPING", "GUILD_MEMBERS", "GUILD_PRESENCES"] });
-const token = require('./token.json');
 const prefix = "LS!"
 const { Permissions } = require('discord.js');
 const bdd = require("./bdd.json");
