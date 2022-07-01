@@ -214,4 +214,4 @@ function Savebdd() {
 //     .setDescription("test")
 //     .setImage(background)
 //     bot.channels.cache.get("831851081545941022").send({ embeds: [welcomeembed] })
-})
+// })
