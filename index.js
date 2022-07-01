@@ -7,7 +7,7 @@ const bdd = require("./bdd.json");
 const fs = require("fs");
 // const Canvas = require("canvas")
 
-bot.login(token.token);
+bot.login(process.env.TOKEN);
 bot.on("ready", () => {
     console.log(`${bot.user.tag} bot is online`);
 });
