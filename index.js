@@ -199,19 +199,19 @@ function Savebdd() {
     });
 }
 
-bot.on("guildMemberAdd", async member => {
-    var canvas = Canvas.createCanvas(1024, 500);
+// bot.on("guildMemberAdd", async member => {
+//     var canvas = Canvas.createCanvas(1024, 500);
 
-    ctx = canvas.getContext("2d");
+//     ctx = canvas.getContext("2d");
 
-    var background = await Canvas.loadImage("./1172754-developer-wallpaper-hd-1920x1080-samsung-galaxy.jpg");
-    ctx.drawImage(background, 0, 0, 1024, 500);
+//     var background = await Canvas.loadImage("./1172754-developer-wallpaper-hd-1920x1080-samsung-galaxy.jpg");
+//     ctx.drawImage(background, 0, 0, 1024, 500);
 
 
 
-    let welcomeembed = new Discord.MessageEmbed()
-    .setColor("#000000")
-    .setDescription("test")
-    .setImage(background)
-    bot.channels.cache.get("831851081545941022").send({ embeds: [welcomeembed] })
+//     let welcomeembed = new Discord.MessageEmbed()
+//     .setColor("#000000")
+//     .setDescription("test")
+//     .setImage(background)
+//     bot.channels.cache.get("831851081545941022").send({ embeds: [welcomeembed] })
 })
