@@ -5,7 +5,7 @@ const prefix = "LS!"
 const { Permissions } = require('discord.js');
 const bdd = require("./bdd.json");
 const fs = require("fs");
-const Canvas = require("canvas")
+// const Canvas = require("canvas")
 
 bot.login(token.token);
 bot.on("ready", () => {
